@@ -6,8 +6,13 @@ Abhinav Sharma this side, I have made a TAX CALCULATOR as a selection criteria f
 
 link to use the website :- https://abhinav163.github.io/Tax-Calculator/
 
-Main page(desktop view):- ![Main page desktop view](Glimpes/mainpage(desktop).png)
-Main page (Phone View):- ![Main page phone view](Glimpes/mainpage(Phone).jpg)
+Main page(desktop view):- 
+
+![Main page desktop view](Glimpes/mainpage(desktop).png)  
+
+Main page (Phone View):- 
+
+![Main page phone view](Glimpes/mainpage(Phone).jpg)
 
 HOVERING EFFECT GLIMPES :- 
 
