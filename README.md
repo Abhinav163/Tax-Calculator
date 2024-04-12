@@ -39,23 +39,23 @@ INCOMPLETE DETAILS ERROR :-
 ![incomplete details 2](Glimpes/incompletedetails2.png)
 
 Test Case :- 
-1)   Gross income :- 0
-     Ext income :- 0
-     Age :- <40
+1)   Gross income :- 0, 
+     Ext income :- 0, 
+     Age :- <40, 
      Deduction :- 0
      
      ![input is zero](Glimpes/result3.png)
 
-3)   Gross income :- 40,00,000
-     Ext income :- 0
-     Age :- <40
+3)   Gross income :- 40,00,000 , 
+     Ext income :- 0, 
+     Age :- <40, 
      Deduction :- 0
 
      ![Gross income is 400k](Glimpes/result.png)
 
-5)   Gross income :- 40,00,000
-     Ext income :- 0
-     Age :- >40 and <60
+5)   Gross income :- 40,00,000 , 
+     Ext income :- 0, 
+     Age :- >40 and <60 ,
      Deduction :- 0
 
      ![Gross income is 400k but age is >40 and <60](Glimpes/result2.png)
