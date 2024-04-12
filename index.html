@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/d91f0db9b6.js" crossorigin="anonymous"></script>
+
+    <title>Tax Calculator</title>
+</head>
+<body>
+    <div class="box">
+        <div id="form" class="fc">
+            <form>
+                <div class="ints" id="inst1">
+                    <p>Gross annual income is your total income before any deductions </p>
+                </div>
+                <label for="gross-income">Enter gross annual income </label><i id="icon" class="fa-regular fa-circle-question icon"></i>
+                <input type="number" pattern="\d*" required id="grossinc" placeholder="Enter gross annual income" min="0">
+                <span class="ei" title="Enter a valid number!">⚠</span><br>
+                
+                <label for="extra-income">Enter extra income </label><i id="icon2" class="fa-regular fa-circle-question icon"></i>
+                <input type="number" id="extinc"  placeholder="Enter extra income" min="0" >
+                <span class="ei" title="Enter a valid number!">⚠</span><br>
+                <div class="ints2" id="inst2">
+                    <p>Extra income is your income from other sources</p>
+                </div>
+                <label for="age-gp">Select age group</label><br>
+                <select id="age" name="age-gp" >
+                    <option value="<40">< 40</option>
+                    <option value="40-60">≥ 40 < 60</option>
+                    <option value="≥60">≥ 60</option>
+                </select>
+                <span class="ei" title="This field is mandatory!">⚠</span><br>
+                
+                <label for="deductions" id="deduct" >Enter total applicable deductions </label><i id="icon3" class="fa-regular fa-circle-question icon"></i>
+                <input type="number" id="ded" min="0" placeholder="Add total applicable deductions">
+                <span class="ei" title="Enter a valid number!">⚠</span>
+                <div class="ints3" id="inst3">
+                    <p>Total amount to be deducted from the sum of gross income and extra income.</p>
+                </div>
+                
+                <button onclick="calculateTax();" type="button" id="submit">Calculate</button>
+                <!-- event.preventDefault(); -->
+            </form>
+    </div>
+        <div id="result" >
+            <div id="res">
+            </div>
+            <button id="back" onclick="back()">Close</button>
+            <br>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
