@@ -38,6 +38,7 @@ function calculateTax() {
 function back(){
     const mode = document.getElementById('result');
     mode.style.display = 'none';
+    window.location.reload();
 }
 document.addEventListener("DOMContentLoaded", function() {
     const Qi = document.querySelector('.fa-regular.fa-circle-question');
